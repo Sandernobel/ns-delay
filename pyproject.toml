@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "ns-delay"
 version = "0.1.0"
-description = "Program to track NS train delays"
+description = "Program to keep track of NS delays"
 authors = ["Sander Nobel <sandernobel@live.nl>"]
 readme = "README.md"
+packages = [{include = "ns_delay", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
