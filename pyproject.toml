@@ -7,8 +7,14 @@ readme = "README.md"
 packages = [{include = "ns_delay", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8.1"
+beautifulsoup4 = "^4.12.2"
 
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+pytest = "^7.4.4"
+coverage = "^7.4.0"
+flake8 = "^6.1.0"
 
 [build-system]
 requires = ["poetry-core"]
