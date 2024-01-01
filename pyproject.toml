@@ -7,8 +7,9 @@ readme = "README.md"
 packages = [{include = "ns_delay", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.8.1"
+python = "^3.9.5"
 beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.12.1"
